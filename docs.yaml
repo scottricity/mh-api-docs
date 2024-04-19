@@ -1,12 +1,11 @@
 openapi: 3.0.0
 servers:
-  - url: 'http://petstore.swagger.io/v2'
+  - url: 'https://mh.scottnet.dev/api'
 info:
   description: >-
-    This is a sample server Petstore server. For this sample, you can use the api key
-    `special-key` to test the authorization filters.
+    The unofficial public API for Miner's Haven
   version: 1.0.0
-  title: OpenAPI Petstore
+  title: Miner's Haven OpenAPI
   license:
     name: Apache-2.0
     url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
