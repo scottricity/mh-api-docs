@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://api.openapi-generator.tech/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <!-- Important: rapi-doc uses utf8 characters -->
+  <script src="./test_files/rapidoc-min.js.download"></script><style type="text/css" id="operaUserStyle"></style><style type="text/css">@font-face {
+  font-family: 'rapidoc';
+  src: url(rapidoc-regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'rapidoc';
+  src: url(rapidoc-semi-bold.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-mono';
+  src: url(roboto-mono-regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'roboto-mono';
+  src: url(roboto-mono-bold.woff2) format("woff2");
+  font-weight: 500;
+  font-style: normal; }
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+  body::-webkit-scrollbar, html::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; }
+  body::-webkit-scrollbar-track, html::-webkit-scrollbar-track {
+    background-color: transparent; }
+  body::-webkit-scrollbar-thumb, html::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 3px; }
+</style>
+<style type="text/css">:root [href^="//x4pollyxxpush.com/"], :root zeus-ad, :root topadblock, :root span[id^="ezoic-pub-ad-placeholder-"], :root guj-ad, :root gpt-ad, :root div[id^="zergnet-widget"], :root div[id^="vuukle-ad-"], :root div[id^="sticky_ad_"], :root div[id^="rc-widget-"], :root div[id^="gpt_ad_"], :root div[id^="ezoic-pub-ad-"], :root div[id^="div-gpt-"], :root div[id^="dfp-ad-"], :root div[id^="adspot-"], :root div[id^="ads300_250-widget-"], :root div[id^="ads300_100-widget-"], :root div[id^="ads250_250-widget-"], :root div[id^="adrotate_widgets-"], :root div[id^="_vdo_ads_player_ai_"], :root div[id*="ScriptRoot"], :root div[id*="MarketGid"], :root div[data-native_ad], :root div[data-mini-ad-unit], :root div[data-insertion], :root div[data-id-advertdfpconf], :root div[data-google-query-id], :root hl-adsense, :root div[data-contentexchange-widget], :root div[data-content="Advertisement"], :root div[data-alias="300x250 Ad 2"], :root div[data-alias="300x250 Ad 1"], :root div[data-adzone], :root div[data-adunit-path], :root div[data-ad-wrapper], :root div[data-ad-placeholder], :root div[class^="native-ad-"], :root div[data-dfp-id], :root div[class^="kiwi-ad-wrapper"], :root div[class^="Adstyled__AdWrapper-"], :root div[aria-label="Ads"], :root display-ads, :root display-ad-component, :root atf-ad-slot, :root aside[id^="adrotate_widgets-"], :root article.ad, :root ark-top-ad, :root app-advertisement, :root app-ad, :root amp-fx-flying-carpet, :root amp-embed[type="taboola"], :root amp-connatix-player, :root amp-ad-custom, :root amp-ad, :root a[style="width:100%;height:100%;z-index:10000000000000000;position:absolute;top:0;left:0;"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://yogacomplyfuel.com/"], :root a[href^="https://www.sugarinstant.com/?partner_id="], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="https://www.onlineusershielder.com/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="https://www.nudeidols.com/cams/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root a[href^="https://www.infowarsstore.com/"] > img, :root a[href^="https://www.highcpmrevenuenetwork.com/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root div[class^="Display_displayAd"], :root a[href^="https://www.sheetmusicplus.com/?aff_id="], :root a[href^="https://www.bang.com/?aff="], :root a[href^="https://www.adxsrve.com/"], :root a[href^="https://wirewar.website/"], :root a[href^="https://visit-website.com/"], :root a[href^="https://twinrdsyn.com/"], :root a[href^="https://twinrdsrv.com/"], :root a[href^="https://tsartech.g2afse.com/"], :root a[href^="https://trk.sportsflix4k.club/"], :root a[href^="https://trk.nfl-online-streams.club/"], :root a[href^="https://traffdaq.com/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://track.adform.net/"], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="https://thefacux.com/"], :root div[data-adname], :root a[href^="https://thechleads.pro/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://taghaugh.com/"], :root a[href^="https://t.hrtye.com/"], :root a[href^="https://www.highperformancecpmgate.com/"], :root a[href^="https://t.grtyi.com/"], :root a[href^="https://t.adating.link/"], :root a[href^="https://go.trackitalltheway.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root a[href^="https://syndication.exoclick.com/"], :root a[href^="https://syndication.dynsrvtbg.com/"], :root a[href^="https://streamate.com/landing/click/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="https://slkmis.com/"], :root a[href^="https://sTaRtGAMing.net/tienda/"], :root citrus-ad-wrapper, :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="https://sTaRTgamInG.net/tienda/"], :root [data-adblockkey], :root a[href^="https://sTARtgamIng.net/tienda/"], :root bottomadblock, :root a[href^="https://s.zlinkd.com/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://s.zlinkc.com/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href^="https://s.optzsrv.com/"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://reinstandpointdumbest.com/"], :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://refpa4903566.top/"], :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root a[href^="https://serve.awmdelivery.com/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root a[href^="https://pb-track.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root ps-connatix-module, :root div[id^="ad_position_"], :root a[href^="https://ovb.im/"], :root div[id^="ad-div-"], :root a[href^="https://newbinotracs.com/"], :root a[href^="http://eighteenderived.com/"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root [href^="https://stvkr.com/"], :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root a[href^="https://loboclick.com"], :root .nya-slot[style], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="https://lobimax.com/"], :root a[href^="https://lead1.pl/"], :root a[href^="https://refpa.top/"], :root a[href^="https://landing.brazzersnetwork.com/"], :root a[href^="https://safesurfingtoday.com/"][href*="?skip="], :root a[href^="https://t.acam.link/"], :root a[href^="https://ads.leovegas.com/redirect.aspx?"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root [data-css-class="dfp-inarticle"], :root .card-captioned.crd > .crd--cnt > .s2nPlayer, :root a[href^="https://go.tmrjmp.com"], :root a[href^="https://startgamIng.Net/tienda/"], :root a[href^="https://l.hyenadata.com/"], :root a[href^="https://yourperfectdating.life/"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="https://kiksajex.com/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://itubego.com/video-downloader/?affid="], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://hot-growngames.life/"], :root [data-revive-zoneid], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href^="https://t.ajump1.com/"], :root a[href^="https://clk.wrenchsound.store/"], :root a[href^="https://go.zybrdr.com"], :root [href^="http://join.michelle-austin.com/"], :root [class^="tile-picker__CitrusBannerContainer-sc-"], :root a[href^="https://go.xxxiijmp.com"], :root a[href^="https://go.xtbaffiliates.com/"], :root a[href^="https://thaudray.com/"], :root .OUTBRAIN[data-widget-id^="FMS_REELD_"], :root [data-role="tile-ads-module"], :root a[href^="https://adsrv4k.com/"], :root a[href^="https://go.xlviirdr.com"], :root a[href^="https://ismlks.com/"], :root a[href^="//a.bestcontentfare.top/"], :root [href^="https://www.mypillow.com/"] > img, :root a[href^="https://azpresearch.club/"], :root a[href^="https://go.xlirdr.com"], :root a[href^="https://go.skinstrip.net"][href*="?campaignId="], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://go.goaserv.com/"], :root a[href^="https://go.dmzjmp.com"], :root a[href^="https://go.admjmp.com/"], :root [href^="https://kingered-banctours.com/"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a-ad, :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root a[href^="https://geniusdexchange.com/"], :root a[href^="https://frameworkdeserve.com/"], :root a[href^="https://flirtandsweets.life/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="https://financeads.net/tc.php?"], :root div[data-native-ad], :root a[href^="https://engine.trackingdesks.com/"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root [href^="https://www.reimageplus.com/"], :root a[href^="https://ak.hauchiwu.com/"], :root a[href^="https://engine.phn.doublepimp.com/"], :root a[href^="https://engine.blueistheneworanges.com/"], :root a[href^="https://dl-protect.net/"], :root [href="//jjgirls.com/sex/ChaturbateCams"], :root a[href^="https://datingoffers30.info/"], :root a[href^="https://ctosrd.com/"], :root a[href^="https://clixtrac.com/"], :root a[href^="https://click.linksynergy.com/fs-bin/"] > img, :root ad-shield-ads, :root a[href^="https://sTartGAMinG.net/tienda/"], :root AD-TRIPLE-BOX, :root a[href^="https://click.hoolig.app/"], :root img[src^="https://images.purevpnaffiliates.com"], :root a[href^="https://porntubemate.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="https://clickadilla.com/"], :root a[href^="https://click.dtiserv2.com/"], :root a[href^="https://go.xlvirdr.com"], :root a[href^="http://www.iyalc.com/"], :root a[href^="https://claring-loccelkin.com/"], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://cams.imagetwist.com/in/?track="], :root a[href^="https://go.gldrdr.com/"], :root a[href^="https://buqkrzbrucz.com/"], :root a[href^="https://affcpatrk.com/"], :root a[href^="https://bongacams2.com/track?"], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="https://bngpt.com/"], :root a[href^="https://bluedelivery.pro/"], :root a[href^="https://black77854.com/"], :root a[href^="https://bc.game/"], :root a[href^="https://ndt5.net/"], :root a[href^="https://batheunits.com/"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[href^="https://banners.livepartners.com/"], :root a[href^="//whulsaux.com/"], :root a[href^="https://m.do.co/c/"] > img, :root [class^="s2nPlayer"], :root a[href^="https://chaturbate.jjgirls.com/?track="], :root a[href^="https://ausoafab.net/"], :root a[href^="https://t.ajrkm1.com/"], :root [href="https://masstortfinancing.com"] img, :root a[href^="https://bongacams10.com/track?"], :root a[href^="https://albionsoftwares.com/"], :root a[href^="https://go.etoro.com/"] > img, :root a[href^="https://convertmb.com/"], :root a[href^="https://spo-play.live/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://intenseaffiliates.com/redirect/"], :root a[href^="https://ads.ad4game.com/"], :root [id^="google_ads_iframe"], :root a[href^="https://syndication.optimizesrv.com/"], :root a[href^="https://affpa.top/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://adjoincomprise.com/"], :root [href^="http://misslinkvocation.com/"], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root [href^="https://r.kraken.com/"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root [href^="http://clicks.totemcash.com/"], :root a[href^="https://misspkl.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root a[href^="https://ad.kubiccomps.icu/"], :root a[href^="https://ab.advertiserurl.com/aff/"], :root a[href^="https://a2.adform.net/"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="https://a.medfoodhome.com/"], :root a[href^="https://adultfriendfinder.com/go/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="http://static.fleshlight.com/images/banners/"], :root a[href^="https://a.adtng.com/"], :root [data-m-ad-id], :root a[href^="https://sTartgAminG.net/tienda/"], :root a[href^="https://a-ads.com/"], :root a[href^="https://join.virtualtaboo.com/track/"], :root a[href^="https://StarTGAminG.net/tienda/"], :root a[href^="https://STaRTgamINg.net/tienda/"], :root a[href^="http://www.mrskin.com/tour"], :root a[href^="https://agacelebir.com/"], :root a[href^="https://spygasm.com/track?"], :root ins.adsbygoogle, :root a[href^="https://1startfiledownload1.com/"], :root a[href^="https://s.zlinkb.com/"], :root a[href^="http://d2.zedo.com/"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href^="http://trk.globwo.online/"], :root a[href^="https://1betandgonow.com/"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="http://tour.mrskin.com/"], :root [href^="https://wct.link/"], :root [data-desktop-ad-id], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="http://m.hue2m.com/"], :root a[href^="https://funkydaters.com/"], :root [id^="ad_sky"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root div[id^="google_dfp_"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root [href^="http://go.cm-trk2.com/"], :root a[href^="http://click.payserve.com/"], :root a[href^="https://porngames.adult/?SID="], :root a[href^="https://landing1.brazzersnetwork.com"], :root #slashboxes > .deals-rail, :root [href^="http://globsads.com/"], :root [href^="https://www.brighteonstore.com/products/"] img, :root a[href^="http://bc.vc/?r="], :root a[href^="https://mityneedn.com/"], :root [href^="http://homemoviestube.com/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="//zunsoach.com/"], :root a[href^="//s.st1net.com/splash.php"], :root a[href^="//pubads.g.doubleclick.net/"], :root a[href^="https://femglobal.app/"], :root a[href^="//go.eabids.com/"], :root [id^="div-gpt-ad"], :root .ob_container .item-container-obpd, :root div[id^="yandex_ad"], :root a[href^="https://pb-imc.com/"], :root a[href^="http://deskfrontfreely.com/"], :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root [href^="https://join.playboyplus.com/track/"], :root a[href^="//ardslediana.com/"], :root [data-d-ad-id], :root a[href*=".engine.adglare.net/"], :root #kt_player > a[target="_blank"], :root a[href*=".cfm?fp="][href*="&maxads="], :root [data-ad-width], :root [href^="https://cpa.10kfreesilver.com/"], :root a[href^="https://a.bestcontentfood.top/"], :root a[href^="http://wct.link/"], :root [href^="https://goldforyourfuture.com/clk.trk"] img, :root [onclick^="location.href='http://www.reimageplus.com"], :root [id^="section-ad-banner"], :root a[href^="https://t.aslnk.link/"], :root a[href^="https://click.candyoffers.com/"], :root [href^="https://zstacklife.com/"] img, :root a[href^="https://go.julrdr.com/"], :root .trc_rbox_div .syndicatedItemUB, :root [href^="https://zone.gotrackier.com/"], :root a[href^="https://fourwhenstatistics.com/"], :root [href^="https://detachedbates.com/"], :root [href^="https://www.targetingpartner.com/"], :root .section-subheader > .section-hotel-prices-header, :root [href^="https://go.affiliatexe.com/"], :root [href^="https://www.hostg.xyz/"] > img, :root a[href^="http://adultfriendfinder.com/go/"], :root a[href^="https://maymooth-stopic.com/"], :root [href^="https://www.herbanomic.com/"] > img, :root div[id^="ad-position-"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://leg.xyz/?track="], :root div[id^="crt-"][style], :root a[href^="http://adultgames.xxx/"], :root a[href^="https://bngprm.com/"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="https://trk.softonixs.xyz/"], :root [href^="https://www.mypatriotsupply.com/"] > img, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root [href="https://ourgoldguy.com/contact/"] img, :root a[href^="https://brightadnetwork.com/"], :root a[href^="http://www.onwebcam.com/random?t_link="], :root [href^="https://www.avantlink.com/click.php"] img, :root a[href^="https://losingoldfry.com/"], :root [data-wpas-zoneid], :root .scroll-fixable.rail-right > .deals-rail, :root [href^="https://routewebtk.com/"], :root a[href^="https://oackoubs.com/"], :root a[href^="https://ak.psaltauw.net/"], :root a[href^="https://go.cmtaffiliates.com/"], :root [data-name="adaptiveConstructorAd"], :root [href^="https://optimizedelite.com/"] > img, :root a[href^="https://awptjmp.com/"], :root a[href^="https://go.goasrv.com/"], :root [href^="http://mypillow.com/"] > img, :root a[href^="http://bongacams.com/track?"], :root a[href^="https://fleshlight.sjv.io/"], :root [data-ad-manager-id], :root a[href^="https://promo-bc.com/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root [href^="https://noqreport.com/"] > img, :root [href^="https://mylead.global/stl/"] > img, :root [href^="https://mypatriotsupply.com/"] > img, :root [data-freestar-ad], :root a[href^="https://fc.lc/ref/"], :root .vid-present > .van_vid_carousel__padding, :root span[data-ez-ph-id], :root [href^="https://track.aftrk1.com/"], :root div[id^="adngin-"], :root [data-rc-widget], :root a[href^="https://go.xxxijmp.com"], :root [href^="https://istlnkcl.com/"], :root a[href^="https://staRTgaming.net/tienda/"], :root a[href^="https://STaRtgAmInG.net/tienda/"], :root [href^="https://ilovemyfreedoms.com/landing-"], :root [href^="https://go.xlrdr.com"], :root [href^="https://go.4rabettraff.com/"], :root a[href^="https://tm-offers.gamingadult.com/"], :root [href^="https://charmingdatings.life/"], :root [href^="https://glersakr.com/"], :root a[href^="https://italarizege.xyz/"], :root a[href^="https://wittered-mainging.com/"], :root [href^="https://engine.gettopple.com/"], :root [data-id^="div-gpt-ad"], :root a[href^="https://tracker.loropartners.com/"], :root [href^="https://awbbjmp.com/"], :root a[href^="https://k2s.cc/pr/"], :root [href^="https://affect3dnetwork.com/track/"], :root a[href^="https://camfapr.com/landing/click/"], :root [href="//sexcams.plus/"], :root a[href^="https://go.currency.com/"], :root div[id^="advads_ad_"], :root .resultsList > div > div > div > div[data-resultid$="-sponsored"], :root [href^="http://www.mypillow.com/"] > img, :root a[href^="https://adserver.adreactor.com/"], :root [href^="http://join.shemalesfromhell.com/"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root [href^="http://www.fleshlightgirls.com/"], :root [href^="http://join.trannies-fuck.com/"], :root .trc_rbox .syndicatedItem, :root a[href^="http://cam4com.go2cloud.org/aff_c?"], :root a[href^="https://cpmspace.com/"], :root [href^="https://freecourseweb.com/"] > .sitefriend, :root a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"], :root [href^="http://join.rodneymoore.com/"], :root [href^="https://shrugartisticelder.com"], :root a[href^="https://staRTgamIng.net/tienda/"], :root div[id^="lazyad-"], :root a[href^="http://com-1.pro/"], :root [name^="google_ads_iframe"], :root a[href^="http://bodelen.com/"], :root [href="https://www.masstortfinancing.com/"] > img, :root a[href^="https://www.geekbuying.com/dynamic-ads/"], :root a[href^="https://lnkxt.bannerator.com/"], :root [href="https://jdrucker.com/gold"] > img, :root [href^="https://v.investologic.co.uk/"], :root [href^="https://cipledecline.buzz/"], :root a[href^="https://go.xxxjmp.com"], :root #leader-companion > a[href], :root a[href^="https://jaxofuna.com/"], :root div[recirculation-ad-container], :root [href^="https://traffserve.com/"], :root [id^="ad_slider"], :root [data-adbridg-ad-class], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root [href^="http://join.shemale.xxx/"], :root div[id^="div-ads-"], :root [href^="https://rapidgator.net/article/premium/ref/"], :root [href^="https://join3.bannedsextapes.com"], :root div[data-spotim-slot], :root [href^="https://antiagingbed.com/discount/"] > img, :root a[href^="https://go.247traffic.com/"], :root [href^="https://join.girlsoutwest.com/"], :root [href^="http://trafficare.net/"], :root [data-type="ad-vertical"], :root a[href^="https://u.expresstech.io/"], :root [href^="https://mypillow.com/"] > img, :root [href^="https://ad.admitad.com/"], :root [data-testid="ad_testID"], :root [href^="https://goldcometals.com/clk.trk"], :root a[href^="https://bodelen.com/"], :root [data-ad-name], :root a[href*=".g2afse.com/"], :root a[href^="https://go.hpyjmp.com"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://fastestvpn.com/lifetime-special-deal?a_aid="], :root [href^="https://mystore.com/"] > img, :root [data-mobile-ad-id], :root [data-ez-name], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root [data-dynamic-ads], :root a[href^="http://go.xtbaffiliates.com/"], :root a[href^="https://consali.com/"], :root .grid > .container > #aside-promotion, :root DFP-AD, :root [onclick*="content.ad/"], :root AMP-AD, :root a[href^="https://sTartGAMiNG.net/tienda/"], :root [data-ad-cls], :root [id^="ad-wrap-"], :root div[id^="taboola-stream-"], :root [href^="https://go.astutelinks.com/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="http://affiliates.thrixxx.com/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root [data-template-type="nativead"], :root [class^="amp-ad-"], :root [href^="https://affiliate.fastcomet.com/"] > img, :root [class^="adDisplay-module"], :root AD-SLOT, :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href^="https://www.liquidfire.mobi/"], :root [href^="https://click2cvs.com/"], :root .trc_related_container div[data-item-syndicated="true"], :root [href^="http://join.shemalepornstar.com/"], :root a[href^="https://go.xlviiirdr.com"], :root .trc_rbox_div .syndicatedItem, :root .plistaList > .itemLinkPET, :root [href^="https://gmxvmvptfm.com/"], :root div[data-adunit], :root app-large-ad, :root [href^="https://turtlebids.irauctions.com/"] img, :root a[href^="https://www.adskeeper.com"], :root [href^="https://totlnkcl.com/"], :root [data-ad-module], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root div[data-ad-targeting], :root a[href^="https://hotplaystime.life/"], :root a[href^="http://www.h4trck.com/"], :root [href^="https://trackfin.asia/"], :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="https://bs.serving-sys.com"], :root [href^="http://residenceseeingstanding.com/"], :root div[id^="pa_sticky_ad_box_middle_"], :root a[href^="http://www.onclickmega.com/jump/next.php?"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href*="//lkstrck2.com/"], :root [class^="div-gpt-ad"], :root a[href^="https://ggbetpromo.com/"], :root a[href^="http://partners.etoro.com/"], :root [data-advadstrackid], :root a[href^="https://refpazkjixes.top/"], :root #mgb-container > #mgb, :root [href^="https://www.cloudways.com/en/?id"], :root [href^="https://safer-redirection.com"], :root a[href^="https://startgAming.net/tienda/"], :root a[href^="https://tweakostensibleinstaller.com/"], :root a[href^="https://go.xlivrdr.com"], :root a[href^="https://cam4com.go2cloud.org/"], :root a[href^="http://li.blogtrottr.com/click?"], :root [href^="//mage98rquewz.com/"], :root a[href^="https://webroutetrk.com/"], :root a[href^="https://mercurybest.com/"], :root [href^="https://www.restoro.com/"], :root div[id^="optidigital-adslot"], :root .resultsList > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded { display: none !important; }</style></head>
+<body>
+<rapi-doc spec-url="https://raw.githubusercontent.com/scottricity/mh-api-docs/main/docs.yaml" theme="dark" spec-file="C:\fakepath\docs.yaml"><template shadowrootmode="open"><!----><!----><style>.regular-font{font-family:var(--font-regular);}
+    .mono-font{font-family:var(--font-mono);}
+    .title{font-size:32px;}
+    .sub-title{font-size: 18px;}
+    .regular-font-size{ font-size:var(--regular-font-size);}
+    .small-font-size{ font-size:var(--small-font-size);}
+    h1{ font-family:var(--font-regular); font-size:20px; letter-spacing:normal; }
+    h2{ font-family:var(--font-regular); font-size:18px; letter-spacing:normal; }
+    h3{ font-family:var(--font-regular); font-size:16px; letter-spacing:normal; }
+    h4{ font-family:var(--font-regular); font-size:15px; letter-spacing:normal; }
+    h5{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+    h6{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+
+    h1,h2,h3,h4,h5,h5{
+      margin-block-end: 0.2em;
+    }
+    p { margin-block-start: 0.5em; }
+    code,
+    pre{
+      font-family: var(--font-mono);
+    }
+
+    /* Markdown */
+    /*
+    .m-markdown p:only-child{
+        color:var(--light-fg);
+        font-size:12px;
+        line-height:normal;
+        margin-top:0;
+    }
+    */
+    .m-markdown,
+    .m-markdown-small{
+      display:block;
+    }
+    .m-markdown li,
+    .m-markdown p,
+    .m-markdown span{
+        line-height:28px;
+        font-size:14px;
+    }
+    .m-markdown-small p,
+    .m-markdown-small span,
+    .m-markdown-small li{
+      color:var(--light-fg);
+      font-size:12px;
+      line-height:14px;
+      margin-top:0;
+    }
+
+    .m-markdown p,
+    .m-markdown-small p{
+      margin-block-end: 0
+    }
+
+    .m-markdown-small ul,
+    .m-markdown-small ol{
+      padding-inline-start: 20px;
+    }
+
+    .m-markdown code{
+        background-color: rgba(0, 0, 0, 0.02);
+        padding: 0px 6px;
+        border: 1px solid var(--light-border-color);
+        border-radius: 3px;
+        color: var(--fg);
+        font-size: var(--font-mono-size);
+    }
+
+    .m-markdown pre{
+        white-space: pre-wrap;
+        background-color: var(--pre-bg);
+        color:var(--pre-fg);
+        padding: 12px 14px 15px 14px;
+        overflow-x: auto;
+        line-height: normal;
+        border-radius: 4px;
+        border: 1px solid var(--pre-border-color);
+    }
+    .m-markdown pre code {
+        border:none;
+        background-color:transparent;
+        color: var(--code-fg);
+    }
+    .m-markdown ul,
+    .m-markdown ol{
+        padding-inline-start:30px;
+    }
+    .m-markdown-small a,
+    .m-markdown a{
+      color:var(--link-color);
+    }
+    .m-markdown img{max-width:100%}
+
+    /* Markdown table */
+
+    .m-markdown table {
+      border-spacing: 0;  
+      border-collapse: separate;
+      border: 1px solid var(--border-color);
+      border-radius: var(--border-radius);
+      margin: 0;
+      max-width: 100%;
+    }
+    .m-markdown tr:first-child td,
+    .m-markdown tr:first-child th {
+        border-top: 0 none;
+    }
+    .m-markdown td, 
+    .m-markdown th{
+      font-size: 12px;
+      line-height: 16px;
+      padding: 4px 5px 4px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .m-markdown th {
+      color: var(--fg2);
+      font-size: 12px;
+      line-height:30px;
+      font-weight: 600;
+      letter-spacing: normal;
+      background-color: var(--bg2);
+      vertical-align: bottom;
+      border-bottom: 1px solid var(--border-color);
+    }</style> <style>input, select, button {
+  font-family: var(--font-regular);
+  font-weight:400;
+  color:var(--fg);
+}
+
+/* Button */
+.m-btn{
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: var(--small-font-size);
+  outline: 0;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  background-color:var(--primary-color);
+  color:var(--primary-text);
+  border: 1px solid var(--primary-color);
+  transition: background-color 0.2s;
+  user-select: none;
+  cursor: pointer;
+}
+
+.m-btn.large{padding:8px 14px;}
+.m-btn.small{padding:5px 12px;}
+.m-btn.circle{border-radius:50%;}
+.m-btn:hover{ background-color: var(--primary-color)}
+
+/* Form Inputs */
+textarea,
+input[type="file"],
+input[type="text"],
+input[type="password"]{
+  border-radius:var(--border-radius);
+  border:1px solid var(--input-border-color);
+  background:var(--input-bg);
+  color:var(--fg);
+  transition: border .2s;
+  outline: none;
+  font-size:calc(var(--small-font-size) + 1px);
+  padding:6px 5px;
+  box-sizing: border-box;
+}
+
+textarea.mono,
+input[type="text"].mono,
+input[type="password"].mono{
+  font-family: var(--font-mono); 
+  font-size:var(--font-mono-size); 
+}
+
+input[type="text"].large,
+input[type="password"].large {
+    padding:10px 8px;
+    font-size:(--font-mono-size); 
+}
+
+
+textarea::placeholder,
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: var(--placeholder-color);
+    opacity:1;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:active,
+input[type="text"]:active,
+input[type="password"]:active {
+    border:1px solid var(--primary-color);
+}
+
+textarea.reverse,
+input.reverse[type="text"],
+input.reverse[type="password"]{
+  background:#333;
+  color:#fff;
+  border:1px solid var(--primary-color); 
+}
+
+textarea.reverse:focus,
+input.reverse[type="text"]:focus,
+input.reverse[type="password"]:focus,
+textarea.reverse:active,
+input.reverse[type="text"]:active,
+input.reverse[type="password"]:active{
+    border:1px solid var(--primary-color);
+}
+
+textarea.reverse::placeholder,
+input.reverse::placeholder{
+    color: #666;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+  
+textarea::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+}
+ 
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(50,50,50, .5);
+}</style> <style>.row, .col{
+    display:flex;
+  } 
+  .row{
+    align-items:center;
+    flex-direction: row;
+  }
+  .col{
+    align-items:stretch;
+    flex-direction: column;
+  }</style> <style>.m-table {
+  border-spacing: 0;  
+  border-collapse: separate;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin: 0;
+  max-width: 100%;
+}
+.m-table tr:first-child td,
+.m-table tr:first-child th {
+    border-top: 0 none;
+}
+.m-table td, 
+.m-table th{
+  font-size: var(--small-font-size);
+  line-height: 16px;
+  padding: 4px 5px 4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.m-table th {
+  color: var(--fg2);
+  font-size: var(--small-font-size);
+  line-height:30px;
+  font-weight: 600;
+  letter-spacing: normal;
+  background-color: var(--bg2);
+  vertical-align: bottom;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.m-table > tbody >tr > td,
+.m-table > tr > td{
+  border-top: 1px solid var(--light-border-color);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.table-title{
+  font-size:var(--small-font-size);
+  font-weight:bold;
+  vertical-align: middle;
+  margin: 12px 0 4px 0;
+}</style> <style>:host{
+          --bg:#333;
+          --bg2:#444;
+          --fg:#bbb;
+          --fg2:#aaa;
+          --light-fg:#777;
+          --very-light-fg:#666;
+          --pre-border-color:#666;
+          --pre-fg:#fff;
+          --pre-bg:#222;
+          --code-fg:#ccc;
+          --code-bg:transparent;
+          --border-color:#666;
+          --input-bg:#303030;
+          --input-border-color:#297aa2;
+          --placeholder-color:#666;
+          --light-border-color:#444;
+          --light-get-color:#2a2a2a;
+          --light-put-color:#2a2a2a;
+          --light-post-color:#2a2a2a;
+          --light-delete-color:#2a2a2a;
+          --light-patch-color:#2a2a2a;
+          --hover-color:#2a2a2a;
+        }</style><style>:host{
+          --error-color:#ff3333;
+          --success-color:#47AFE8;
+          --hover-bg:#f7f7f7;
+          --get-color:#47AFE8;
+          --put-color:#FF9900;
+          --post-color:#99CC00;
+          --delete-color:#F06560;
+          --patch-color:#fc0;
+          --link-color:#47AFE8;
+          --primary-color:#FF791A;
+          --dark-primary-color:#e15b00;
+          --primary-text:#ffffff;
+          --header-bg:#444;
+          --header-fg:#ccc;
+          --layout:row;
+          --font-mono:Monaco, 'Andale Mono', 'Roboto Mono', Consolas; 
+          --font-mono-size:14px; 
+          --font-regular:rapidoc, Helvetica, Arial;
+          --title-font-size:16px;
+          --regular-font-size:14px;
+          --small-font-size:12px;
+          --border-radius:2px;
+
+          display:block;
+          min-width:375px;
+          width:100%;
+          height:100%;
+          margin:0;
+          padding:0;
+          overflow: auto;
+          letter-spacing:normal;
+          color:var(--fg);
+          background-color:var(--bg);
+          font-family:var(--font-regular);
+        }
+
+        .body-container{ 
+          margin:0;
+        }
+        .section-gap { 
+          padding: 24px 8px 8px 8px; 
+        }
+
+        .logo { 
+          height:36px;
+          width:36px;
+          margin-left:5px; 
+        }
+        .only-large-screen-flex,
+        .only-large-screen{
+          display:none;
+        }
+        .header-title{
+          font-size:calc(var(--title-font-size) + 8px); padding:0 8px;
+        }
+        .tag{
+          text-transform: uppercase;
+        }
+        .header{
+          background-color:var(--header-bg);
+          color:var(--header-fg);
+        }
+
+        input.header-input{
+          background:#333;
+          color:var(--header-fg);
+          border:1px solid var(--dark-primary-color);
+          flex:1; 
+          padding-right:24px;
+          border-radius:3px;
+        }
+        input.header-input::placeholder {
+          opacity:0.4;
+        }
+
+
+        @media only screen and (min-width: 768px){
+          .only-large-screen{
+            display:block;
+          }
+          .only-large-screen-flex{
+            display:flex;
+          }
+          .body-container{ 
+            margin:0 16px;
+          }
+          .section-gap { 
+            padding: 24px 24px 8px 24px; 
+          }
+        }</style><div class="row header regular-font" style="padding:8px 4px 8px 4px;min-height:48px;position:sticky;top:0;flex:1"><div class="only-large-screen-flex" style="align-items: center;"><slot name="logo" class="logo"><m-logo style="height:36px;width:36px;margin-left:5px"><template shadowrootmode="open"><!----><svg xmlns="http://www.w3.org/2000/svg" viewBox="1 0 511 512"><path d="M350.96 411.023C315.914 471.395 250.566 512 175.73 512S35.547 471.395.5 411.023c25.64-44.16 67.488-77.746 117.4-92.598 18.32-5.457 37.73-8.383 57.82-8.383 64.27 0 121.527 29.945 158.62 76.637a202.91 202.91 0 0 1 16.609 24.344zm0 0" fill="#adc165"></path><path d="M334.352 386.68c-57.172 16.984-121.246 8.652-173.89-28.223-16.465-11.527-30.68-25.05-42.55-40.03 18.32-5.457 37.73-8.383 57.82-8.383 64.27 0 121.527 29.945 158.62 76.637zm77.172 32.18H85.195a7.84 7.84 0 0 1-7.84-7.84 7.84 7.84 0 0 1 7.84-7.836h326.328a7.84 7.84 0 0 1 7.84 7.84 7.84 7.84 0 0 1-7.84 7.836zm0 0" fill="#99aa52"></path><path d="M374.32 337.773c-1.086 10.242-2.97 20.414-5.62 30.426-67.48 17.906-142.39.406-195.31-52.512-52.922-52.9-70.418-127.828-52.512-195.31 51.11-13.555 106.496-6.812 153.34 20.258 15 8.664 29.133 19.418 41.97 32.254 45.066 45.07 64.445 106.1 58.133 164.883zm0 0" fill="#ffc73b"></path><path d="M374.32 337.773c-51.195-29.6-89.03-81.246-98.824-144.207-2.793-17.937-3.137-35.695-1.277-52.93 15 8.664 29.133 19.418 41.97 32.254 45.066 45.07 64.445 106.1 58.133 164.883zm37.203 81.086c-2.008 0-4.012-.762-5.543-2.293l-230.75-230.75a7.84 7.84 0 0 1 11.086-11.086l230.75 230.75c3.06 3.063 3.06 8.023 0 11.086-1.53 1.53-3.54 2.293-5.543 2.293zm0 0" fill="#efb025"></path><path d="M310.543 175.23c0 74.84 40.605 140.184 100.98 175.234C471.895 315.418 512.5 250.07 512.5 175.23S471.898 35.047 411.523 0c-60.375 35.047-100.98 100.395-100.98 175.23zm0 0" fill="#ff903e"></path><path d="M411.523 418.86a7.84 7.84 0 0 1-7.84-7.836V84.69c0-4.328 3.512-7.84 7.84-7.84s7.84 3.512 7.84 7.84v326.332a7.84 7.84 0 0 1-7.84 7.836zm0 0" fill="#e87425"></path></svg><!----></template></m-logo></slot><div class="header-title"><!----><!----></div></div><div style="margin: 0px 8px;display:flex;flex:1"><!----><input id="spec-url" type="text" class="header-input" placeholder="Spec URL" spellcheck="false" value="https://raw.githubusercontent.com/scottricity/mh-api-docs/main/docs.yaml"><div style="margin: 6px 5px 0 -24px; font-size:var(--title-font-size); cursor:pointer;">⏎</div> <input id="spec-file" type="file" style="display:none" spellcheck="false" value=""> <button class="m-btn only-large-screen" style="margin-left:10px;">LOCAL JSON FILE</button><slot name="header"></slot><input id="search" class="header-input" type="text" placeholder="search" style="max-width:130px;margin-left:10px;" spellcheck="false"><div style="margin: 6px 5px 0 -24px; font-size:var(--title-font-size); cursor:pointer;">⏎</div><!----></div></div><div class="body-container regular-font"><slot></slot> <div class="section-gap"><div class="title"><!---->Miner's Haven OpenAPI <span style="font-size:var(--small-font-size);font-weight:bold"><!---->1.0.0<!----></span><!----></div><!----><div class="m-markdown regular-font"><p>The unofficial public API for Miner's Haven</p>
+</div><!----><!----></div> <div class="sub-title regular-font section-gap"><a id="api_server_options">API SERVER:</a><div class="mono-font" style="margin: 12px 0; font-size:calc(var(--small-font-size) + 1px);"><!----><!----><!----><input type="radio" name="api_server" checked="checked" style="margin:2px 0 5px 8px" value="https://mh.scottnet.dev/api"> https://mh.scottnet.dev/api<br><!----><!----> <!----></div></div> <div class="sub-title regular-font section-gap"><security-schemes selected-api-key-name="" selected-api-key-value=""><template shadowrootmode="open"><!----><!----><style>.regular-font{font-family:var(--font-regular);}
+    .mono-font{font-family:var(--font-mono);}
+    .title{font-size:32px;}
+    .sub-title{font-size: 18px;}
+    .regular-font-size{ font-size:var(--regular-font-size);}
+    .small-font-size{ font-size:var(--small-font-size);}
+    h1{ font-family:var(--font-regular); font-size:20px; letter-spacing:normal; }
+    h2{ font-family:var(--font-regular); font-size:18px; letter-spacing:normal; }
+    h3{ font-family:var(--font-regular); font-size:16px; letter-spacing:normal; }
+    h4{ font-family:var(--font-regular); font-size:15px; letter-spacing:normal; }
+    h5{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+    h6{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+
+    h1,h2,h3,h4,h5,h5{
+      margin-block-end: 0.2em;
+    }
+    p { margin-block-start: 0.5em; }
+    code,
+    pre{
+      font-family: var(--font-mono);
+    }
+
+    /* Markdown */
+    /*
+    .m-markdown p:only-child{
+        color:var(--light-fg);
+        font-size:12px;
+        line-height:normal;
+        margin-top:0;
+    }
+    */
+    .m-markdown,
+    .m-markdown-small{
+      display:block;
+    }
+    .m-markdown li,
+    .m-markdown p,
+    .m-markdown span{
+        line-height:28px;
+        font-size:14px;
+    }
+    .m-markdown-small p,
+    .m-markdown-small span,
+    .m-markdown-small li{
+      color:var(--light-fg);
+      font-size:12px;
+      line-height:14px;
+      margin-top:0;
+    }
+
+    .m-markdown p,
+    .m-markdown-small p{
+      margin-block-end: 0
+    }
+
+    .m-markdown-small ul,
+    .m-markdown-small ol{
+      padding-inline-start: 20px;
+    }
+
+    .m-markdown code{
+        background-color: rgba(0, 0, 0, 0.02);
+        padding: 0px 6px;
+        border: 1px solid var(--light-border-color);
+        border-radius: 3px;
+        color: var(--fg);
+        font-size: var(--font-mono-size);
+    }
+
+    .m-markdown pre{
+        white-space: pre-wrap;
+        background-color: var(--pre-bg);
+        color:var(--pre-fg);
+        padding: 12px 14px 15px 14px;
+        overflow-x: auto;
+        line-height: normal;
+        border-radius: 4px;
+        border: 1px solid var(--pre-border-color);
+    }
+    .m-markdown pre code {
+        border:none;
+        background-color:transparent;
+        color: var(--code-fg);
+    }
+    .m-markdown ul,
+    .m-markdown ol{
+        padding-inline-start:30px;
+    }
+    .m-markdown-small a,
+    .m-markdown a{
+      color:var(--link-color);
+    }
+    .m-markdown img{max-width:100%}
+
+    /* Markdown table */
+
+    .m-markdown table {
+      border-spacing: 0;  
+      border-collapse: separate;
+      border: 1px solid var(--border-color);
+      border-radius: var(--border-radius);
+      margin: 0;
+      max-width: 100%;
+    }
+    .m-markdown tr:first-child td,
+    .m-markdown tr:first-child th {
+        border-top: 0 none;
+    }
+    .m-markdown td, 
+    .m-markdown th{
+      font-size: 12px;
+      line-height: 16px;
+      padding: 4px 5px 4px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .m-markdown th {
+      color: var(--fg2);
+      font-size: 12px;
+      line-height:30px;
+      font-weight: 600;
+      letter-spacing: normal;
+      background-color: var(--bg2);
+      vertical-align: bottom;
+      border-bottom: 1px solid var(--border-color);
+    }</style> <style>.m-table {
+  border-spacing: 0;  
+  border-collapse: separate;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin: 0;
+  max-width: 100%;
+}
+.m-table tr:first-child td,
+.m-table tr:first-child th {
+    border-top: 0 none;
+}
+.m-table td, 
+.m-table th{
+  font-size: var(--small-font-size);
+  line-height: 16px;
+  padding: 4px 5px 4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.m-table th {
+  color: var(--fg2);
+  font-size: var(--small-font-size);
+  line-height:30px;
+  font-weight: 600;
+  letter-spacing: normal;
+  background-color: var(--bg2);
+  vertical-align: bottom;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.m-table > tbody >tr > td,
+.m-table > tr > td{
+  border-top: 1px solid var(--light-border-color);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.table-title{
+  font-size:var(--small-font-size);
+  font-weight:bold;
+  vertical-align: middle;
+  margin: 12px 0 4px 0;
+}</style> <style>input, select, button {
+  font-family: var(--font-regular);
+  font-weight:400;
+  color:var(--fg);
+}
+
+/* Button */
+.m-btn{
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: var(--small-font-size);
+  outline: 0;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  background-color:var(--primary-color);
+  color:var(--primary-text);
+  border: 1px solid var(--primary-color);
+  transition: background-color 0.2s;
+  user-select: none;
+  cursor: pointer;
+}
+
+.m-btn.large{padding:8px 14px;}
+.m-btn.small{padding:5px 12px;}
+.m-btn.circle{border-radius:50%;}
+.m-btn:hover{ background-color: var(--primary-color)}
+
+/* Form Inputs */
+textarea,
+input[type="file"],
+input[type="text"],
+input[type="password"]{
+  border-radius:var(--border-radius);
+  border:1px solid var(--input-border-color);
+  background:var(--input-bg);
+  color:var(--fg);
+  transition: border .2s;
+  outline: none;
+  font-size:calc(var(--small-font-size) + 1px);
+  padding:6px 5px;
+  box-sizing: border-box;
+}
+
+textarea.mono,
+input[type="text"].mono,
+input[type="password"].mono{
+  font-family: var(--font-mono); 
+  font-size:var(--font-mono-size); 
+}
+
+input[type="text"].large,
+input[type="password"].large {
+    padding:10px 8px;
+    font-size:(--font-mono-size); 
+}
+
+
+textarea::placeholder,
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: var(--placeholder-color);
+    opacity:1;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:active,
+input[type="text"]:active,
+input[type="password"]:active {
+    border:1px solid var(--primary-color);
+}
+
+textarea.reverse,
+input.reverse[type="text"],
+input.reverse[type="password"]{
+  background:#333;
+  color:#fff;
+  border:1px solid var(--primary-color); 
+}
+
+textarea.reverse:focus,
+input.reverse[type="text"]:focus,
+input.reverse[type="password"]:focus,
+textarea.reverse:active,
+input.reverse[type="text"]:active,
+input.reverse[type="password"]:active{
+    border:1px solid var(--primary-color);
+}
+
+textarea.reverse::placeholder,
+input.reverse::placeholder{
+    color: #666;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+  
+textarea::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+}
+ 
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(50,50,50, .5);
+}</style><style>.url{
+        display: inline-flex;
+        color: #999;
+        max-width: 220px;
+        overflow-wrap: break-word;
+        word-break: break-all;
+      }</style><div>AUTHENTICATION</div><table style="width:auto" class="m-table"><tbody><tr><th>Type</th><th>Authentication Procedure</th></tr><!----></tbody></table><!----></template></security-schemes></div> <!----><!----><div class="sub-title tag regular-font section-gap"><!---->collection<!----></div><div style="margin:4px 20px"><!----><div class="m-markdown regular-font"></div><!----></div><end-points selected-server="https://mh.scottnet.dev/api" api-key-name="" api-key-value="" api-key-location="" layout="row" allow-try="true" match-paths=""><template shadowrootmode="open"><!----><!----><!----><end-point selected-server="https://mh.scottnet.dev/api" api-key-name="" api-key-value="" api-key-location="" layout="row" allow-try="true"><template shadowrootmode="open"><!----><!----><style>.regular-font{font-family:var(--font-regular);}
+    .mono-font{font-family:var(--font-mono);}
+    .title{font-size:32px;}
+    .sub-title{font-size: 18px;}
+    .regular-font-size{ font-size:var(--regular-font-size);}
+    .small-font-size{ font-size:var(--small-font-size);}
+    h1{ font-family:var(--font-regular); font-size:20px; letter-spacing:normal; }
+    h2{ font-family:var(--font-regular); font-size:18px; letter-spacing:normal; }
+    h3{ font-family:var(--font-regular); font-size:16px; letter-spacing:normal; }
+    h4{ font-family:var(--font-regular); font-size:15px; letter-spacing:normal; }
+    h5{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+    h6{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+
+    h1,h2,h3,h4,h5,h5{
+      margin-block-end: 0.2em;
+    }
+    p { margin-block-start: 0.5em; }
+    code,
+    pre{
+      font-family: var(--font-mono);
+    }
+
+    /* Markdown */
+    /*
+    .m-markdown p:only-child{
+        color:var(--light-fg);
+        font-size:12px;
+        line-height:normal;
+        margin-top:0;
+    }
+    */
+    .m-markdown,
+    .m-markdown-small{
+      display:block;
+    }
+    .m-markdown li,
+    .m-markdown p,
+    .m-markdown span{
+        line-height:28px;
+        font-size:14px;
+    }
+    .m-markdown-small p,
+    .m-markdown-small span,
+    .m-markdown-small li{
+      color:var(--light-fg);
+      font-size:12px;
+      line-height:14px;
+      margin-top:0;
+    }
+
+    .m-markdown p,
+    .m-markdown-small p{
+      margin-block-end: 0
+    }
+
+    .m-markdown-small ul,
+    .m-markdown-small ol{
+      padding-inline-start: 20px;
+    }
+
+    .m-markdown code{
+        background-color: rgba(0, 0, 0, 0.02);
+        padding: 0px 6px;
+        border: 1px solid var(--light-border-color);
+        border-radius: 3px;
+        color: var(--fg);
+        font-size: var(--font-mono-size);
+    }
+
+    .m-markdown pre{
+        white-space: pre-wrap;
+        background-color: var(--pre-bg);
+        color:var(--pre-fg);
+        padding: 12px 14px 15px 14px;
+        overflow-x: auto;
+        line-height: normal;
+        border-radius: 4px;
+        border: 1px solid var(--pre-border-color);
+    }
+    .m-markdown pre code {
+        border:none;
+        background-color:transparent;
+        color: var(--code-fg);
+    }
+    .m-markdown ul,
+    .m-markdown ol{
+        padding-inline-start:30px;
+    }
+    .m-markdown-small a,
+    .m-markdown a{
+      color:var(--link-color);
+    }
+    .m-markdown img{max-width:100%}
+
+    /* Markdown table */
+
+    .m-markdown table {
+      border-spacing: 0;  
+      border-collapse: separate;
+      border: 1px solid var(--border-color);
+      border-radius: var(--border-radius);
+      margin: 0;
+      max-width: 100%;
+    }
+    .m-markdown tr:first-child td,
+    .m-markdown tr:first-child th {
+        border-top: 0 none;
+    }
+    .m-markdown td, 
+    .m-markdown th{
+      font-size: 12px;
+      line-height: 16px;
+      padding: 4px 5px 4px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .m-markdown th {
+      color: var(--fg2);
+      font-size: 12px;
+      line-height:30px;
+      font-weight: 600;
+      letter-spacing: normal;
+      background-color: var(--bg2);
+      vertical-align: bottom;
+      border-bottom: 1px solid var(--border-color);
+    }</style><style></style><!----><style>.request{ border-width: 0 1px 0 0; }</style><!----><div class="m-endpoint regular-font get expanded"><!-- Endpoint Head --><div class="head get expanded"><div class="method get"><!---->get<!----></div><div class="path "><!---->/collection/{id}<!----></div><div class="only-large-screen" style="min-width:60px; flex:1"></div><div class="m-markdown-small descr"><!----><p>yurr</p>
+<!----></div></div><!-- Endpoint Body --> <div class="body get"><!----><div class="summary"><div class="m-markdown title"><!----><p>yurr</p>
+<!----></div><!----></div><div class="req-resp-container"><api-request class="request" ,="" method="get" path="/collection/{id}" api-key-name="" api-key-value="" api-key-location="" selected-server="https://mh.scottnet.dev/api" allow-try="true" accept=""><template shadowrootmode="open"><!----><!----><style>.m-table {
+  border-spacing: 0;  
+  border-collapse: separate;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
+  margin: 0;
+  max-width: 100%;
+}
+.m-table tr:first-child td,
+.m-table tr:first-child th {
+    border-top: 0 none;
+}
+.m-table td, 
+.m-table th{
+  font-size: var(--small-font-size);
+  line-height: 16px;
+  padding: 4px 5px 4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.m-table th {
+  color: var(--fg2);
+  font-size: var(--small-font-size);
+  line-height:30px;
+  font-weight: 600;
+  letter-spacing: normal;
+  background-color: var(--bg2);
+  vertical-align: bottom;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.m-table > tbody >tr > td,
+.m-table > tr > td{
+  border-top: 1px solid var(--light-border-color);
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.table-title{
+  font-size:var(--small-font-size);
+  font-weight:bold;
+  vertical-align: middle;
+  margin: 12px 0 4px 0;
+}</style> <style>input, select, button {
+  font-family: var(--font-regular);
+  font-weight:400;
+  color:var(--fg);
+}
+
+/* Button */
+.m-btn{
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  display: inline-block;
+  padding: 6px 16px;
+  font-size: var(--small-font-size);
+  outline: 0;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  background-color:var(--primary-color);
+  color:var(--primary-text);
+  border: 1px solid var(--primary-color);
+  transition: background-color 0.2s;
+  user-select: none;
+  cursor: pointer;
+}
+
+.m-btn.large{padding:8px 14px;}
+.m-btn.small{padding:5px 12px;}
+.m-btn.circle{border-radius:50%;}
+.m-btn:hover{ background-color: var(--primary-color)}
+
+/* Form Inputs */
+textarea,
+input[type="file"],
+input[type="text"],
+input[type="password"]{
+  border-radius:var(--border-radius);
+  border:1px solid var(--input-border-color);
+  background:var(--input-bg);
+  color:var(--fg);
+  transition: border .2s;
+  outline: none;
+  font-size:calc(var(--small-font-size) + 1px);
+  padding:6px 5px;
+  box-sizing: border-box;
+}
+
+textarea.mono,
+input[type="text"].mono,
+input[type="password"].mono{
+  font-family: var(--font-mono); 
+  font-size:var(--font-mono-size); 
+}
+
+input[type="text"].large,
+input[type="password"].large {
+    padding:10px 8px;
+    font-size:(--font-mono-size); 
+}
+
+
+textarea::placeholder,
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: var(--placeholder-color);
+    opacity:1;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:active,
+input[type="text"]:active,
+input[type="password"]:active {
+    border:1px solid var(--primary-color);
+}
+
+textarea.reverse,
+input.reverse[type="text"],
+input.reverse[type="password"]{
+  background:#333;
+  color:#fff;
+  border:1px solid var(--primary-color); 
+}
+
+textarea.reverse:focus,
+input.reverse[type="text"]:focus,
+input.reverse[type="password"]:focus,
+textarea.reverse:active,
+input.reverse[type="text"]:active,
+input.reverse[type="password"]:active{
+    border:1px solid var(--primary-color);
+}
+
+textarea.reverse::placeholder,
+input.reverse::placeholder{
+    color: #666;
+}
+
+textarea::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+  
+textarea::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+}
+ 
+textarea::-webkit-scrollbar-thumb {
+    background-color: rgba(50,50,50, .5);
+}</style> <style>.regular-font{font-family:var(--font-regular);}
+    .mono-font{font-family:var(--font-mono);}
+    .title{font-size:32px;}
+    .sub-title{font-size: 18px;}
+    .regular-font-size{ font-size:var(--regular-font-size);}
+    .small-font-size{ font-size:var(--small-font-size);}
+    h1{ font-family:var(--font-regular); font-size:20px; letter-spacing:normal; }
+    h2{ font-family:var(--font-regular); font-size:18px; letter-spacing:normal; }
+    h3{ font-family:var(--font-regular); font-size:16px; letter-spacing:normal; }
+    h4{ font-family:var(--font-regular); font-size:15px; letter-spacing:normal; }
+    h5{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+    h6{ font-family:var(--font-regular); font-size:14px; letter-spacing:normal; }
+
+    h1,h2,h3,h4,h5,h5{
+      margin-block-end: 0.2em;
+    }
+    p { margin-block-start: 0.5em; }
+    code,
+    pre{
+      font-family: var(--font-mono);
+    }
+
+    /* Markdown */
+    /*
+    .m-markdown p:only-child{
+        color:var(--light-fg);
+        font-size:12px;
+        line-height:normal;
+        margin-top:0;
+    }
+    */
+    .m-markdown,
+    .m-markdown-small{
+      display:block;
+    }
+    .m-markdown li,
+    .m-markdown p,
+    .m-markdown span{
+        line-height:28px;
+        font-size:14px;
+    }
+    .m-markdown-small p,
+    .m-markdown-small span,
+    .m-markdown-small li{
+      color:var(--light-fg);
+      font-size:12px;
+      line-height:14px;
+      margin-top:0;
+    }
+
+    .m-markdown p,
+    .m-markdown-small p{
+      margin-block-end: 0
+    }
+
+    .m-markdown-small ul,
+    .m-markdown-small ol{
+      padding-inline-start: 20px;
+    }
+
+    .m-markdown code{
+        background-color: rgba(0, 0, 0, 0.02);
+        padding: 0px 6px;
+        border: 1px solid var(--light-border-color);
+        border-radius: 3px;
+        color: var(--fg);
+        font-size: var(--font-mono-size);
+    }
+
+    .m-markdown pre{
+        white-space: pre-wrap;
+        background-color: var(--pre-bg);
+        color:var(--pre-fg);
+        padding: 12px 14px 15px 14px;
+        overflow-x: auto;
+        line-height: normal;
+        border-radius: 4px;
+        border: 1px solid var(--pre-border-color);
+    }
+    .m-markdown pre code {
+        border:none;
+        background-color:transparent;
+        color: var(--code-fg);
+    }
+    .m-markdown ul,
+    .m-markdown ol{
+        padding-inline-start:30px;
+    }
+    .m-markdown-small a,
+    .m-markdown a{
+      color:var(--link-color);
+    }
+    .m-markdown img{max-width:100%}
+
+    /* Markdown table */
+
+    .m-markdown table {
+      border-spacing: 0;  
+      border-collapse: separate;
+      border: 1px solid var(--border-color);
+      border-radius: var(--border-radius);
+      margin: 0;
+      max-width: 100%;
+    }
+    .m-markdown tr:first-child td,
+    .m-markdown tr:first-child th {
+        border-top: 0 none;
+    }
+    .m-markdown td, 
+    .m-markdown th{
+      font-size: 12px;
+      line-height: 16px;
+      padding: 4px 5px 4px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .m-markdown th {
+      color: var(--fg2);
+      font-size: 12px;
+      line-height:30px;
+      font-weight: 600;
+      letter-spacing: normal;
+      background-color: var(--bg2);
+      vertical-align: bottom;
+      border-bottom: 1px solid var(--border-color);
+    }</style> <style>.row, .col{
+    display:flex;
+  } 
+  .row{
+    align-items:center;
+    flex-direction: row;
+  }
+  .col{
+    align-items:stretch;
+    flex-direction: column;
+  }</style> <style>a{ color: var(--link-color); }
+.border{
+  border:1px solid var(--border-color);
+  border-radius: var(--border-radius);
+}
+.light-border{
+  border:1px solid var(--light-border-color);
+  border-radius: var(--border-radius);
+}</style><style>.title{
+        font-family:var(--font-regular);
+        font-size:var(--title-font-size);
+        font-weight:bold;
+        margin-bottom:16px;
+      }
+      .param-name,
+      .param-type{
+        margin: 1px 0;
+        text-align: right;
+        line-height: 12px;
+      }
+      .param-name{
+        color: var(--fg); 
+        font-family: var(--font-mono);
+      }
+      .param-type{
+        color: var(--light-fg); 
+        font-family: var(--font-regular);
+      }
+      .param-constraint{
+        min-width:100px;
+      }
+      .param-constraint:empty{
+        display:none;
+      }
+      .top-gap{margin-top:24px;}
+      .tab-buttons{
+        height:30px;
+        border-bottom: 1px solid var(--light-border-color) ;
+        align-items: stretch;
+      }
+      .tab-btn{
+        border:none;
+        background-color:transparent;
+        cursor:pointer;
+        outline:none;
+        font-size:var(--small-font-size);
+        margin-right:16px;
+        padding:1px;
+      }
+      .tab-btn.active{
+        border-bottom: 3px solid var(--primary-color); 
+        font-weight:bold;
+        color:var(--primary-color);
+      }
+
+      .tab-btn:hover{
+        color:var(--primary-color);
+      }
+      .tab-content{
+        margin:-1px 0 0 0;
+      }
+      .link{
+        font-size:var(--small-font-size);
+        text-decoration: underline;
+        color:var(--link-color);
+        font-family:var(--font-mono);
+        margin-bottom:2px;
+        
+      }
+      .textarea {
+        min-height:180px; 
+        padding:5px;
+        resize:vertical;
+        font-size:var(--font-mono-size);
+      }
+
+      .response-message.error{
+        color:var(--error-color);
+        font-weight:bold;
+        text-overflow: ellipsis;
+      }
+      .response-message.success{
+        color:var(--success-color);
+        font-weight:bold;
+        text-overflow: ellipsis;
+      }
+
+      @media only screen and (min-width: 768px){
+        .textarea {
+          padding:16px;
+        }
+      }</style><div class="col regular-font request-panel"><div class="title">REQUEST</div>     <!----><div style="display:flex; align-items: center; margin:16px 0; font-size:var(--small-font-size);"><div style="display:flex; flex-direction:column; margin:0; width:calc(100% - 60px);"><div style="display:flex;flex-direction:row;overflow:hidden;"><div style="font-weight:bold;">API_Server:</div><!---->https://mh.scottnet.dev/api<!----><!----></div><div style="display:flex;flex-direction:row;overflow:hidden;line-height:16px;color:var(--fg2)"><!----><div style="color:var(--light-fg)">No Authentication Token provided</div><!----></div></div><button class="m-btn" style="padding: 6px 0px;width:60px">TRY</button></div><!----><!----><!----></div><!----></template></api-request><api-response class="response"><template shadowrootmode="open"></template></api-response></div></div><!----></div><!----></template></end-point><!----><!----><!----></template></end-points><!----><!----><slot name="footer"></slot></div><!----></template>
+  <img slot="logo" src="./test_files/logo.png" style="margin:0 -0.3em 0 0.8em;">
+</rapi-doc>
+
+</body></html>

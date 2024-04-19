@@ -23,5 +23,5 @@ paths:
     responses:
       '200':
         description: success
-        content: 
+        content: "h"
           
