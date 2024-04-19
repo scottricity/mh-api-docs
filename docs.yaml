@@ -16,60 +16,12 @@ tags:
     description: Access to Petstore orders
   - name: user
     description: Operations about user
-paths:
-  /pet:
-    post:
-      tags:
-        - pet
-      summary: Add a new pet to the store
-      description: ''
-      operationId: addPet
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/xml:
-              schema:
-                $ref: '#/components/schemas/Pet'
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Pet'
-        '405':
-          description: Invalid input
-      security:
-        - petstore_auth:
-            - 'write:pets'
-            - 'read:pets'
-      requestBody:
-        $ref: '#/components/requestBodies/Pet'
-    put:
-      tags:
-        - pet
-      summary: Update an existing pet
-      description: ''
-      operationId: updatePet
-      externalDocs:
-        url: "http://petstore.swagger.io/v2/doc/updatePet"
-        description: "API documentation for the updatePet operation"
-      responses:
-        '200':
-          description: successful operation
-          content:
-            application/xml:
-              schema:
-                $ref: '#/components/schemas/Pet'
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Pet'
-        '400':
-          description: Invalid ID supplied
-        '404':
-          description: Pet not found
-        '405':
-          description: Validation exception
-      security:
-        - petstore_auth:
-            - 'write:pets'
-            - 'read:pets'
-      requestBody:
-        $ref: '#/components/requestBodies/Pet'
+paths: 
+  /collection/{id}:
+    get:
+      description: yurr
+    responses:
+      '200':
+        description: success
+        content: 
+          
